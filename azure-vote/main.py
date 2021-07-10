@@ -56,7 +56,6 @@ tracer = Tracer(
  sampler=ProbabilitySampler(1.0),
 )
 
-
 app = Flask(__name__)
 
 # Requests
