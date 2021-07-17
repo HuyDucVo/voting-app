@@ -1,50 +1,60 @@
-# Project  - *Neighborly App*
+# Project  - *Voting App*
 
-**Neighborly** is a Python Flask-powered web application that allows neighbors to post advertisements for services and products they can offer..
+**Voting App** is a Python Flask-Redis powered web application allows user to vote for cat or dog or reset the vote count ... 
 
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [x] User sees app on the live URL
-- [x] User can scroll through a list of advertisements and posts
-- [x] User can create or update their post/advertisements
-- [x] User sees a specific post/advertisement
-- [x] User sees notification in their email
+- [x] Setup Application Insights on a VMSS and implement monitoring in an application to collect telemetry data
+- [x] Setup an auto-scaling for a VMSS
+- [x] Setup an Azure Automation account and create a RunBook to automate the resolution of performance issues
+- [x] Create alerts to trigger auto-scaling on an AKS cluster and trigger a RunBook to execute
 
 The following **technical** specification are implemented:
 
-- [x] Cosmos DB
-- [x] Azure Functions
-- [x] Azure Web Apps
-- [x] CI/CD Docker
-- [x] CI/CD Kubernetes 
-- [x] Azure Event Hubs Monitoring
-- [x] Azure Logic App Notification
+- [x] Azure Load Balancer
+- [x] VM Scale Set
+- [x] Network Security Group
+- [x] Virtual Machine
+- [x] Flask/ Redis
+- [x] Application Insight
+- [x] Storage Account
+- [x] Azure Kubernetes Service
+- [x] Docker
+- [x] Alert
+- [x] Azure Automation Account
+- [x] Runbooks
+
 
 ## Architecture
 <p align="center">
-<img src="/images/neighborly_app (1).jpg" width="500px">
+<img src="submission-screenshots/voting_app.jpg" width="1000px">
 </p>
 
 ## Screenshots
 <p align="center">
-<img src="/images/1.1.1 the database & collections .png" width="500px">
-<img src="/images/1.1.2 advertisements.png" width="500px">
-<img src="/images/1.1.3 posts.png" width="500px">
-<img src="/images/1.2.1 Triggers in Azure HTTP.png" width="500px">
-<img src="/images/1.2.2 Triggers in Azure Portal.png" width="500px">
-<img src="/images/1.3 api_getadvertisements.png" width="500px">
-<img src="/images/2.1.1 Logic App Azure.png" width="500px">
-<img src="/images/2.1.2 Logic App Azure.png" width="500px">
-<img src="/images/2.1.2 Logic App Email.png" width="500px">
-<img src="/images/2.2 Event Hub Azure.png" width="500px">
-<img src="/images/3.1 Live Website.png" width="500px">
-<img src="/images/3.2 Dockerfile Azure.png" width="500px">
-<img src="/images/3.3.1 K8 CLI.png" width="500px">
-<img src="/images/3.3.2 K8 Azure Services.png" width="500px">
-<img src="/images/3.3.2 K8 Azure Workloads.png" width="500px">
+<img src="submission-screenshots/application-insights/Screen Shot 2021-07-11 at 5.59.06 PM.png" width="500px">
+<img src="submission-screenshots/application-insights/Screen Shot 2021-07-11 at 6.03.04 PM.png" width="500px">
+<img src="submission-screenshots/application-insights/Screen Shot 2021-07-11 at 6.06.34 PM.png" width="500px">
+<img src="submission-screenshots/application-insights/Screen Shot 2021-07-11 at 6.06.47 PM.png" width="500px">
+<img src="submission-screenshots/application-insights/Screen Shot 2021-07-11 at 6.07.13 PM.png" width="500px">
+<img src="submission-screenshots/application-insights/Screen Shot 2021-07-11 at 6.07.29 PM.png" width="500px">
+<img src="submission-screenshots/application-insights/Screen Shot 2021-07-11 at 6.09.43 PM.png" width="500px">
+<img src="submission-screenshots/application-insights/Screen Shot 2021-07-11 at 6.13.11 PM.png" width="500px">
+<img src="submission-screenshots/application-insights/Screen Shot 2021-07-11 at 6.15.29 PM.png" width="500px">
+<img src="submission-screenshots/autoscaling-vmss/Screen Shot 2021-07-11 at 6.40.34 PM.png" width="500px">
+<img src="submission-screenshots/autoscaling-vmss/Screen Shot 2021-07-11 at 6.41.07 PM.png" width="500px">
+<img src="submission-screenshots/autoscaling-vmss/Screen Shot 2021-07-11 at 6.41.37 PM.png" width="500px">
+<img src="submission-screenshots/kubernetes-cluster/Screen Shot 2021-07-11 at 6.21.59 PM.png" width="500px">
+<img src="submission-screenshots/kubernetes-cluster/Screen Shot 2021-07-11 at 6.30.28 PM.png" width="500px">
+<img src="submission-screenshots/kubernetes-cluster/screencapture-mail-google-mail-u-1-2021-07-11-18_33_04.png" width="500px">
+<img src="submission-screenshots/runbook/Screen Shot 2021-07-11 at 7.03.52 PM.png" width="500px">
+<img src="submission-screenshots/runbook/Screen Shot 2021-07-11 at 7.05.55 PM.png" width="500px">
+<img src="submission-screenshots/runbook/Screen Shot 2021-07-11 at 7.06.09 PM.png" width="500px">
+<img src="submission-screenshots/runbook/Screen Shot 2021-07-11 at 7.06.25 PM.png" width="500px">
+<img src="submission-screenshots/runbook/Screen Shot 2021-07-11 at 7.07.31 PM.png" width="500px">
 </p>
 
 ## Notes
